@@ -1,0 +1,112 @@
+*{
+	margin: 2px;
+	padding: 2px;
+
+}
+header, section, footer, aside, nav, article, figure, figcaption, hgroup {
+	display: block;
+}
+
+
+#Titulo{
+	margin: 20px;
+	background:   #c63105 ;
+	-moz-border-radius: 20px / 10px;
+	-webkit-border-radius: 20px / 10px;
+	border-radius: 20px / 10px;
+
+	-moz-box-shadow: rgb(150,150,150) 5px 5px;
+	-webkit-box-shadow: rgb(150,150,150) 5px 5px;
+	box-shadow: rgb(150,150,150) 5px 5px 10px inset;
+
+	text-shadow: rgb(100,0,150) 5px 5px 7px;
+}
+img.imglogo{
+	margin-top: 10px;
+	margin-left: 40px;
+	width: 250px;
+	height: 250px;
+	
+	
+}
+h1.Titulo1{
+
+	margin: 20px;
+	margin-top: 110px;
+	margin-right: 10px;
+	text-align: right;
+	float: right;
+}
+#Menu{
+	background: #CCCCCC;
+	margin: 20px;
+	padding: 0px 20px;
+
+	-moz-border-radius: 20px / 10px;
+	-webkit-border-radius: 20px / 10px;
+	border-radius: 20px / 10px;
+}
+#Menu li {
+	display: inline-block;
+	list-style: none;
+	padding: 15px 10px;
+
+	font: bold 17px verdana, sans-serif;
+}
+li a, Boton {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	padding: 0em 1em;
+	margin-right: 0.5em;
+	margin-right: 0em;
+}
+.listaDesplegable {
+
+	display: none;
+	background-color: ghostwhite;
+	position: absolute;
+}
+.listaDesplegable a {
+	display: block;
+	text-align: left;
+}
+.Boton:hover .listaDesplegable{
+	display: block;
+}
+li a:hover {
+	background-color:  #1bb362 ;
+}
+
+
+article {
+	background: #FFFBCC;
+	border: 1px solid #999999;
+	padding: 20px;
+	margin-bottom: 15px;
+
+	-moz-border-radius: 20px / 10px;
+	-webkit-border-radius: 20px / 10px;
+	border-radius: 20px / 10px;
+}
+article footer {
+	text-align: center;
+}
+time {
+	color: #999999;
+}
+figcaption {
+	font: italic 14px verdana, sans-serif;
+}
+div {
+	width: 100px;
+	margin: 20px;
+	padding: 10px;
+	border: 1px solid #000000;
+
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
