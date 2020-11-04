@@ -17,18 +17,18 @@
 			<li class="Boton"><a href="#">Conceptos</a>
 				<div class="listaDesplegable">
 					<a href="Concepto1.html">Concepto 1</a>
-					<a href="Concepto2.hmtl">Concepto 2</a>
-					
+					<a href="#">Concepto 2</a>
+					<a href="#">Concepto 3</a>
 				</div>
 			</li>
 			<li class="Boton"><a href="#">Recursos</a>
 				<div class="listaDesplegable">
 					<a href="https://www.laurachuburu.com.ar/tutoriales/propiedades-css.php">Recurso 1</a>
-					<a href="http://w3.unpocodetodo.info/css3/display.php">Recurso 2</a>
+					<a href="#">Recurso 2</a>
 				</div>
 			</li>
-			<li><a href="Autoevaluacion.html">Autoevaluacion</a></li>
-			<li><a href="Autor.html">Autor</a></li>
+			<li><a href="#">Autoevaluacion</a></li>
+			<li><a href="#">Autor</a></li>
 		</ul>
 		
 	</nav>

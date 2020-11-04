@@ -2,6 +2,7 @@
 	margin: 2px;
 	padding: 2px;
 
+
 }
 header, section, footer, aside, nav, article, figure, figcaption, hgroup {
 	display: block;
@@ -10,7 +11,7 @@ header, section, footer, aside, nav, article, figure, figcaption, hgroup {
 
 #Titulo{
 	margin: 20px;
-	background:   #c63105 ;
+	background: #17abc9;
 	-moz-border-radius: 20px / 10px;
 	-webkit-border-radius: 20px / 10px;
 	border-radius: 20px / 10px;
@@ -38,7 +39,7 @@ h1.Titulo1{
 	float: right;
 }
 #Menu{
-	background: #CCCCCC;
+	background:  #1dd06c;
 	margin: 20px;
 	padding: 0px 20px;
 
@@ -56,6 +57,7 @@ h1.Titulo1{
 li a, Boton {
 	display: inline-block;
 	text-align: center;
+	padding-right: 50px;
 	text-decoration: none;
 	padding: 0em 1em;
 	margin-right: 0.5em;
@@ -64,20 +66,72 @@ li a, Boton {
 .listaDesplegable {
 
 	display: none;
+	margin: 10px;
+
 	background-color: ghostwhite;
 	position: absolute;
+	text-align: left;
 }
 .listaDesplegable a {
 	display: block;
+	padding: 11px;
+
 	text-align: left;
 }
 .Boton:hover .listaDesplegable{
 	display: block;
+	
+
 }
 li a:hover {
-	background-color:  #1bb362 ;
+	background-color:   #ec2237;
 }
 
+#columna {
+	float: left;
+	width: 540px;
+	height: 620px;
+	margin: 20px 0px;
+	padding: 20px;
+	background: #CCCCCC;
+	margin: 20px;
+	padding: 20px;
+
+	-moz-border-radius: 20px / 10px;
+	-webkit-border-radius: 20px / 10px;
+	border-radius: 20px / 10px;
+}
+#columna2 {
+	float: left;
+	width: 540px;
+	height: 1620px;
+	margin: 20px 0px;
+	padding: 20px;
+	background: #CCCCCC;
+	margin: 20px;
+	padding: 20px;
+
+	-moz-border-radius: 20px / 10px;
+	-webkit-border-radius: 20px / 10px;
+	border-radius: 20px / 10px;
+}
+#section {
+	float: left;
+	width: 660px;
+	margin: 20px;
+}
+#imagenAutor {
+	text-align: right;
+	margin-right: : 10px;
+	margin-left: 100px;
+}
+.Autor {
+	text-align: left;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+
+}
 
 article {
 	background: #FFFBCC;
@@ -99,9 +153,7 @@ figcaption {
 	font: italic 14px verdana, sans-serif;
 }
 div {
-	width: 100px;
-	margin: 20px;
-	padding: 10px;
+	margin: 40px;
 	border: 1px solid #000000;
 
 	-moz-box-sizing: border-box;
