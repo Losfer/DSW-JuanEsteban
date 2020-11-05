@@ -34,7 +34,7 @@ h1.Titulo1{
 
 	margin: 20px;
 	margin-top: 110px;
-	margin-right: 10px;
+	margin-right: 30px;
 	text-align: right;
 	float: right;
 }
@@ -67,7 +67,6 @@ li a, Boton {
 
 	display: none;
 	margin: 10px;
-
 	background-color: ghostwhite;
 	position: absolute;
 	text-align: left;
@@ -131,6 +130,12 @@ li a:hover {
 	margin: 0px;
 	padding: 0px;
 
+}
+#pie {
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid #999999;
 }
 
 article {
